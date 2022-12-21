@@ -17,10 +17,14 @@
     1. On your repository page on Github, select the Settings tab
     2. On the left side under the Security header, open the Secrets dropdown and select Actions
     3. Select the green "New repository secret" button
+    
     ![image](https://user-images.githubusercontent.com/42755431/208821499-2e7d1a16-436a-4f9d-bc26-c51549c6c832.png)
+    
     4. For the Name, enter `ENV_FILE`
     5. For the Secret, paste the exact contents of your local `.env` file (don't worry, it's secure)
+    
     ![image](https://user-images.githubusercontent.com/42755431/208821679-0cf0b22b-cf5f-43de-863d-ca35a97c852d.png)
+    
     6. Select the green "Add secret" button
 3. Create a Github Action (if you're already familiar with Github Actions, skip to step 5 for the yml code)
 
