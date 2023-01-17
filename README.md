@@ -1,9 +1,7 @@
 # Twitter Bot Template
 
-> TODO: instructions on how to setup Twitter dev account
-
 ### To setup and run the program locally
-1. Setup a Twitter developer account
+1. Setup a [Twitter Developer](https://developer.twitter.com) account, you can follow the instructions [down here](#to-create-a-twitter-developer-account)
 2. Create a new project with a new app in the Twitter developer portal
 3. Clone this repository, or create your own repo using this as a template
 4. Create a `.env` file and fill it out with tokens & keys from your Twitter dev account (use the provided `.env-example` file as a reference)
@@ -58,3 +56,12 @@
     6. In the top right, select "Start commit", and then "Commit new file"
 4. Run your Github Action
 
+### To create a Twitter Developer account
+1. Create new twitter account for your bot
+2. Head to https://developer.twitter.com
+3. Sign up button
+4. In the "What's your use case?" section, select "Making a bot" and Continue
+5. Verify your email
+6. Enter a name for your app
+7. Write all of the secrets and keys down! These are used in your `.env` file
+8. Continue to the Dashboard
