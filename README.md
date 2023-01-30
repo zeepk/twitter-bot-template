@@ -55,6 +55,13 @@
     ```
     6. In the top right, select "Start commit", and then "Commit new file"
 4. Run your Github Action
+5. Change `on: workflow_dispatch` to a cron schedule set to your desired schedule:
+```yml
+on:
+  schedule:
+    # Runs "at minute 55 past every hour" (see https://crontab.guru)
+    - cron: '55 * * * *'
+```
 
 ### To create a Twitter Developer account
 1. Create new twitter account for your bot
