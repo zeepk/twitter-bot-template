@@ -24,7 +24,7 @@
     ![image](https://user-images.githubusercontent.com/42755431/208821679-0cf0b22b-cf5f-43de-863d-ca35a97c852d.png)
     
     6. Select the green "Add secret" button
-3. Create a Github Action (if you're already familiar with Github Actions, skip to step 5 for the yml code)
+3. Create a Github Action (if you're already familiar with Github Actions, skip to step v for the yml code)
 
     1. On your repository page on Github, select the Actions tab
     2. On the left side, select the "New workflow" button
