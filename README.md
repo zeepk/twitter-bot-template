@@ -65,3 +65,4 @@
 6. Enter a name for your app
 7. Write all of the secrets and keys down! These are used in your `.env` file
 8. Continue to the Dashboard
+9. TODO: Instructions on how to change token access from `read only` to `read & write`
